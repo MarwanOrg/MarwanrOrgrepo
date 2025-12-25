@@ -1,0 +1,32 @@
+p {
+    color :red;
+}
+
+p,div {
+    color :rgb(164, 136, 228);
+}
+
+#myDiv > p.mainClass{
+    color :rgb(249, 9, 9);
+
+}
+
+div p {
+    color: rgb(37, 37, 59); 
+}
+
+input[type="text"].myClass {
+    border: 1px solid #ab1515;
+}
+
+div ~ span {
+    color: rgba(8, 207, 8, 0.764);
+}
+
+p.myClass {
+    color: rgb(255, 0, 200);
+}
+
+div#mydiv {
+   color: rgb(13, 0, 0);
+}
